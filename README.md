@@ -1,2 +1,3 @@
 # Mac-defender-firewall
 Set up firewall configuration to allow communication between my base os and guest os using the ping utility.
+Allowed the firewall on my baseos [macOS] to accept data travel in and out, then used the ifconfig commannd to determine the ip address of the baseOS ;192.168.1.135 on terminal then replicated the same command on my guestOS [kali] and the ip address was;192.168.1.156. To confirm there was communication between these two, pinged the ip address of my kali on my baseOS terminal and got 0%packet loss and did the same thing on my guestOS respectively,0% packet loss, with these statements i could therefore confirm that there was good communication in the network.
